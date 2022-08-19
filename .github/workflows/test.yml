@@ -1,0 +1,13 @@
+
+name: Test Organization CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest   
+    steps:
+      steps:
+      - uses: gw-commons/.github/workflows/test
