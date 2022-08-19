@@ -9,5 +9,4 @@ jobs:
   build:
     runs-on: ubuntu-latest   
     steps:
-      steps:
-      - uses: gw-commons/.github/workflows/test
+      - uses: gw-commons/.github/workflows/test@main
